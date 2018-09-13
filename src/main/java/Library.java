@@ -3,10 +3,13 @@
  */
 public class Library {
     public static void main(String args[]) {
-    	System.out.println("When there is a fire:");
-    	System.out.println("1.\tgit commit");
-    	System.out.println("2.\tgit push");
-    	System.out.println("3.\trun");
+    	Library lib = new Library();
+    	if(lib.someLibraryMethod()) {
+	    	System.out.println("When there is a fire:");
+	    	System.out.println("1.\tgit commit");
+	    	System.out.println("2.\tgit push");
+	    	System.out.println("3.\trun");
+    	}
     }
     
     public boolean someLibraryMethod() {
